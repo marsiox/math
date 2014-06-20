@@ -3,7 +3,7 @@ class Perfect
   def divisors(number)
     divisors = []
     1.upto(number) do |i|
-     divisors << i if number%i == 0
+      divisors << i if number%i == 0
    end
     # exclude the number itself
     divisors.pop
