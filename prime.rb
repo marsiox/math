@@ -1,6 +1,6 @@
 class Prime
 
-  def print_decorated(table, cell_size)
+	def print_decorated(table, cell_size)
 		table.each do |sub_arr|
 			str = ""
 			sub_arr.each do |element|
@@ -10,9 +10,9 @@ class Prime
 				element = "#{element}#{space}"
 				str = str.concat(element)
 			end
-		puts str
+			puts str
 		end
-  end
+	end
 
 	def generate(lim)
 		primes = []
@@ -26,7 +26,7 @@ class Prime
 
 	def is_prime?(num)
 		(2..num).to_a.each do |subnum|
-		  return false if num != subnum && num%subnum == 0
+			return false if num != subnum && num%subnum == 0
 		end
 
 		true
