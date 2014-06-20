@@ -13,7 +13,7 @@ class Perfect
   def summarize(numbers)
     sum = 0
     numbers.each_with_index do |n, i|
-     sum += n
+      sum += n
    end
    sum
  end
