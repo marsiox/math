@@ -11,8 +11,8 @@ class Perfect
   end
 
   def summarize(numbers)
-  	sum = 0
-  	numbers.each_with_index do |n, i|
+    sum = 0
+    numbers.each_with_index do |n, i|
      sum += n
    end
    sum
